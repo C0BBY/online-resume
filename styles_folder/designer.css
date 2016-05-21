@@ -1,0 +1,33 @@
+*{
+margin:0px;
+padding:0px;
+}
+p{
+	color:red;
+}
+nav{
+padding-top:17px;	
+padding-bottom:10px;	
+	background:auto;
+	float:right;
+}
+#brand{
+padding-top:5px;
+font-size:25px;
+float:left;
+margin-left:50px;
+}
+nav li{
+	margin-right: 100px;
+	display:inline;
+	list-style:none;
+	font-size:20px;
+}
+nav a{
+	text-decoration:none;
+}
+.top_section{
+height:60px;
+color:#0E547D;
+background-color:#222222; /*GREY*/
+}
