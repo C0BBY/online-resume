@@ -26,6 +26,9 @@ nav li{
 nav a{
 	text-decoration:none;
 }
+nav a:hover{
+	
+}
 #top_section{
 height:60px;
 color:#0E547D;
@@ -67,6 +70,17 @@ float:right;
 background-color: #2F2F2F;
 width:340px;
 height:300px;
+}
+.education{
+text-align:left;
+margin:50px;
+}
+table th, td{
+padding:10px;
+}
+.experience{
+text-align:left;
+margin:50px;
 }
 footer{
 clear:both;
