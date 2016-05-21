@@ -1,35 +1,59 @@
 <!DOCTYPE html>
 <html>
 	<head>
+		<meta charset="utf-8"/>
 		<title>Andrew Owino - Web and Mobile Developer</title>
-		<meta charset="utf-8">
-		<link type="html/css" rel="stylesheet" href=""/>
-	<head>
-	<body>
-		<!-- Navigation bar -->
-		<nav>
-			<ul>
-				<li>HOME</li>
-				<li>PROFILE</li>
-				<li>RESUME</li>
-				<li>CONTACTS</li>
-			</ul>
-		</nav>
+		<link rel="stylesheet" type="text/css" href="styles_folder/designer.css">
+		<!--
+		For the styles that do not function when 
+		placed in the external style sheet 
+		-->
+		<style>
+			.image_section{
+				background-image: url("images/me.jpg");
+	background-repeat: no-repeat;
+	background-position: center;
+    height:650px;
+	background-size:cover;
+	text-align:center;
+	
+			}
+		</style>
 		
-		<!--What appears beneath the Navigation bar-->
-		<div class="container">
-			<!--image section-->
-			<div></div>
-			
-			<!--Profile section-->
-			<div></div>
-			
-			<!--Resume section-->
-			<div></div>
-			
-			<!--Contacts section-->
-			<div></div>
+	</head>
+	<body>
+		<div class="top_section">
+			<!--Website Owner's Name-->
+			<div id="brand">
+				<h2>Andrew Owino</h2>
+			</div>
+			<!-- Navigation bar -->
+			<nav>
+				<ul>
+					<li><a href="#" class="active">HOME</a></li>
+					<li><a href="#profile">PROFILE</a></li>
+					<li><a href="#resume">RESUME</a></li>
+					<li><a href="#contact">CONTACT</a></li>
+				</ul>		
+			</nav>
 		</div>		
+		
+		<!--image section-->
+		<div class="image_section">
+			<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><!--To center the text vertically-->
+			<h3 class="margin">Welcome to My Site!</h3>
+			<h3>Feel free to view my <a href="#resume">online resume</a>.</h3>
+		</div>
+			
+		<!--Profile section-->
+		<div></div>
+		
+		<!--Resume section-->
+		<div></div>
+			
+		<!--Contacts section-->
+		<div></div>
+		
 		
 		<!--Footer-->
 		<footer>
