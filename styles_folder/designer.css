@@ -1,21 +1,27 @@
-*{
-margin:0px;
-padding:0px;
+*{/*Reset browser positioning*/
+	margin:0px;
+	padding:0px;
 }
-p{
-	color:red;
-}
+
 nav{
-padding-top:17px;	
-padding-bottom:10px;	
+	padding-top:17px;	
+	padding-bottom:10px;	
 	background:auto;
 	float:right;
 }
 #brand{
-padding-top:5px;
-font-size:25px;
-float:left;
-margin-left:50px;
+	padding-top:5px;
+	font-size:25px;
+	float:left;
+	margin-left:50px;
+}
+#brand a{
+	color:#0E547D;
+	text-decoration:none;
+}
+#brand a:hover{
+	color:#ffffff; /*Turn white when pointer is on it*/
+	text-decoration:none;
 }
 nav li{
 	margin-right: 100px;
@@ -23,67 +29,70 @@ nav li{
 	list-style:none;
 	font-size:20px;
 }
-nav a{
+a{
 	text-decoration:none;
 }
 nav a:hover{
-	
+	color:#86E0FC;
 }
 #top_section{
-height:60px;
-color:#0E547D;
-background-color:#222222; /*GREY*/
+	height:60px;
+	color:#0E547D;
+	background-color:#222222; /*GREY*/
 }
 #profile_section{
-text-align:center;
-background-color:#474E5D; /*LIGHT GREY*/
-padding:50px;
+	text-align:center;
+	background-color:#474E5D; /*LIGHT GREY*/
+	padding:50px;
 }
 .section_title{
-text-decoration:underline;
+	text-decoration:underline;
 }
 #resume_section{
-text-align:center;
-background-color:#FFFFFF; /*WHITE*/
-padding:50px;
+	text-align:center;
+	background-color:#FFFFFF; /*WHITE*/
+	padding:50px;
 }
 #contacts_section{
-text-align:center;
-background-color:#2F2F2F;
-padding-top:50px;
+	text-align:center;
+	background-color:#2F2F2F;
+	padding-top:50px;
+}
+#contacts_section a:hover{
+	color:blue;
 }
 #facebook_section{
-float:left;
-background-color:#2F2F2F;
-width:340px;
-height:300px;
+	float:left;
+	background-color:#2F2F2F;
+	width:340px;
+	height:300px;
 }
 #email_section{
-float:left;
-background-color:#2F2F2F;
-width:auto;
-height:300px;
-
+	color:#FFFFFF;
+	float:left;
+	background-color:#2F2F2F;
+	width:auto;
+	height:300px;
 }
 #twitter_section{
-float:right;
-background-color: #2F2F2F;
-width:340px;
-height:300px;
+	float:right;
+	background-color: #2F2F2F;
+	width:340px;
+	height:300px;
 }
 .education{
-text-align:left;
-margin:50px;
+	text-align:left;
+	margin:50px;
 }
 table th, td{
-padding:10px;
+	padding:10px;
 }
 .experience{
-text-align:left;
-margin:50px;
+	text-align:left;
+	margin:50px;
 }
 footer{
-clear:both;
-text-align: center;
-padding:50px;
+	clear:both;
+	text-align: center;
+	padding:50px;
 }
